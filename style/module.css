@@ -1,12 +1,4 @@
-#container{
-    margin: auto;
-    height: 700px;
-    width: 960px;
- padding-top:5%;
- padding-bottom: 7%;
- padding-left: 13%;
- padding-right: 13%;
-}
+
 
 main div:nth-child(1){
     position: relative;
@@ -80,35 +72,14 @@ main div:nth-child(8){
 
 @media only screen and (max-width: 225px) {
 
-    body{
-        padding: 0px;
-        margin: 0px;
-        }
+   
         p{
             position: absolute;
             left: 50%;
             top:50%;
         }
         
-        main{
-            height: 90%;
-            width: 100%;
-        }
-        #container{
-            height: 767px;
-            width:480px;
-         padding-top:5%;
-         padding-bottom: 5%;
-         padding-left: 13%;
-         padding-right: 13%;
-        }
-        #head{
-            position: relative;
-            background-color: rgb(23, 49, 71);
-            height:9.8% ;
-            width:100% ;
-            box-sizing: border-box;
-        }
+    
         main div:nth-child(1){
             position: relative;
             background-color: rgb(204, 166, 117);
