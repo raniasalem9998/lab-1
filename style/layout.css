@@ -3,3 +3,19 @@ main{
     height: 90%;
     width: 100%;
 }
+#head{
+    background-color: rgb(102, 157, 206);
+    position: relative;
+    height:14.286% ;
+    width:100% ;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 225px) {
+    #head{
+                position: relative;
+                background-color: rgb(23, 49, 71);
+                height:9.8% ;
+                width:100% ;
+                box-sizing: border-box;
+            }
+        }

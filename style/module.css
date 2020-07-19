@@ -7,13 +7,7 @@
  padding-left: 13%;
  padding-right: 13%;
 }
-#first{
-    background-color: rgb(102, 157, 206);
-    position: relative;
-    height:14.286% ;
-    width:100% ;
-    box-sizing: border-box;
-}
+
 main div:nth-child(1){
     position: relative;
     background-color: rgb(122, 79, 21);
@@ -108,7 +102,7 @@ main div:nth-child(8){
          padding-left: 13%;
          padding-right: 13%;
         }
-        #first{
+        #head{
             position: relative;
             background-color: rgb(23, 49, 71);
             height:9.8% ;
