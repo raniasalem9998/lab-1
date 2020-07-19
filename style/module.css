@@ -1,0 +1,183 @@
+#container{
+    margin: auto;
+    height: 700px;
+    width: 960px;
+ padding-top:5%;
+ padding-bottom: 7%;
+ padding-left: 13%;
+ padding-right: 13%;
+}
+#first{
+    background-color: rgb(102, 157, 206);
+    position: relative;
+    height:14.286% ;
+    width:100% ;
+    box-sizing: border-box;
+}
+main div:nth-child(1){
+    position: relative;
+    background-color: rgb(122, 79, 21);
+    float: left;
+    height:100% ;
+    width:20.833% ;
+    box-sizing: border-box;
+}
+main div:nth-child(2){
+    position: relative;
+    float: left;
+    background-color: blueviolet;
+    height:33.33% ;
+    width:39.58% ;
+    box-sizing: border-box;
+}
+main div:nth-child(3){
+    float: left;
+    position: relative;
+    background-color: chocolate;
+    height:33.33% ;
+    width:39.58% ;
+    box-sizing: border-box;
+}
+main div:nth-child(4){
+    position: relative;
+    float: left;
+    background-color: coral;
+    height:41.6%;
+    width: 19.75% ;
+    box-sizing: border-box;
+}
+main div:nth-child(5){
+    position: relative;
+    float: left;
+    background-color: darkgreen;
+    height:41.6%;
+    width: 19.8% ;
+    box-sizing: border-box;
+}
+main div:nth-child(6){
+    position: relative;
+    float: left;
+    background-color: deeppink;
+    height:41.6%;
+    width: 19.8% ;
+    box-sizing: border-box;
+}
+main div:nth-child(7){
+    position: relative;
+    float: left;
+    background-color: goldenrod;
+    height:41.6%;
+    width: 19.8% ;
+    box-sizing: border-box;
+}
+p{
+    position: absolute;
+    left: 50%;
+    top:50%;
+}
+main div:nth-child(8){
+    position: relative;
+    float: left;
+    background-color: indigo;
+    height:25% ;
+    width:79.15% ;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 225px) {
+
+    body{
+        padding: 0px;
+        margin: 0px;
+        }
+        p{
+            position: absolute;
+            left: 50%;
+            top:50%;
+        }
+        
+        main{
+            height: 90%;
+            width: 100%;
+        }
+        #container{
+            height: 767px;
+            width:480px;
+         padding-top:5%;
+         padding-bottom: 5%;
+         padding-left: 13%;
+         padding-right: 13%;
+        }
+        #first{
+            position: relative;
+            background-color: rgb(23, 49, 71);
+            height:9.8% ;
+            width:100% ;
+            box-sizing: border-box;
+        }
+        main div:nth-child(1){
+            position: relative;
+            background-color: rgb(204, 166, 117);
+            float: left;
+            height:19.6% ;
+            width:100% ;
+            box-sizing: border-box;
+        }
+        main div:nth-child(2){
+            position: relative;
+            float: left;
+            background-color: rgb(43, 4, 78);
+            height:16.3% ;
+            width:100% ;
+            box-sizing: border-box;
+        }
+        main div:nth-child(3){
+            float: left;
+            position: relative;
+            background-color: rgb(102, 90, 81);
+            height:16.3% ;
+            width:100% ;
+            box-sizing: border-box;
+        }
+        main div:nth-child(4){
+            position: relative;
+            float: left;
+            background-color: rgb(54, 32, 24);
+            height:32.6%;
+            width: 50% ;
+            box-sizing: border-box;
+        }
+        main div:nth-child(5){
+            position: relative;
+            float: left;
+            background-color: rgb(127, 201, 127);
+            height:32.6%;
+            width: 50% ;
+            box-sizing: border-box;
+        }
+        main div:nth-child(6){
+            position: relative;
+            float: left;
+            background-color: rgb(146, 29, 92);
+            height:32.6%;
+            width: 50% ;
+            box-sizing: border-box;
+        }
+        main div:nth-child(7){
+            position: relative;
+            float: left;
+            background-color: rgb(105, 84, 31);
+            height:32.6%;
+            width: 50% ;
+            box-sizing: border-box;
+        }
+
+        main div:nth-child(8){
+            position: relative;
+            float: left;
+            background-color: rgb(135, 59, 189);
+            height:10.4% ;
+            width:100% ;
+            box-sizing: border-box;
+        }
+  }
