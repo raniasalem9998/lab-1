@@ -61,6 +61,10 @@ p{
     left: 50%;
     top:50%;
 }
+#head{
+    position: relative;
+    
+}
 main div:nth-child(8){
     position: relative;
     float: left;
@@ -70,7 +74,7 @@ main div:nth-child(8){
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 225px) {
+@media only screen and (max-width: 480px) {
 
    
         p{
@@ -83,66 +87,64 @@ main div:nth-child(8){
         main div:nth-child(1){
             position: relative;
             background-color: rgb(204, 166, 117);
-            float: left;
-            height:19.6% ;
-            width:100% ;
+           
+            height:100% ;
+            width: 100%;
+            grid-column: 1 /3;
             box-sizing: border-box;
         }
         main div:nth-child(2){
             position: relative;
-            float: left;
+            grid-column: 1 /3;
             background-color: rgb(43, 4, 78);
-            height:16.3% ;
+            height:100% ;
             width:100% ;
             box-sizing: border-box;
         }
         main div:nth-child(3){
-            float: left;
+            grid-column: 1 /3;
             position: relative;
             background-color: rgb(102, 90, 81);
-            height:16.3% ;
+            height:100% ;
             width:100% ;
             box-sizing: border-box;
         }
         main div:nth-child(4){
             position: relative;
-            float: left;
             background-color: rgb(54, 32, 24);
-            height:32.6%;
-            width: 50% ;
+            height:100%;
+            width: 100% ;
             box-sizing: border-box;
         }
         main div:nth-child(5){
             position: relative;
-            float: left;
             background-color: rgb(127, 201, 127);
-            height:32.6%;
-            width: 50% ;
+            height:100%;
+            width: 100% ;
             box-sizing: border-box;
         }
         main div:nth-child(6){
             position: relative;
-            float: left;
             background-color: rgb(146, 29, 92);
-            height:32.6%;
-            width: 50% ;
+            height:100%;
+            width: 100% ;
             box-sizing: border-box;
         }
         main div:nth-child(7){
             position: relative;
-            float: left;
             background-color: rgb(105, 84, 31);
-            height:32.6%;
-            width: 50% ;
+            height:100%;
+            width: 100% ;
             box-sizing: border-box;
         }
 
         main div:nth-child(8){
+            grid-column: 1 /3;
             position: relative;
-            float: left;
             background-color: rgb(135, 59, 189);
-            height:10.4% ;
+            height:100% ;
             width:100% ;
             box-sizing: border-box;
         }
+       
   }
